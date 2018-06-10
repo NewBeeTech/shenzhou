@@ -1,0 +1,53 @@
+.Company {
+  width: 100%;
+  height: 34vw;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 100;
+}
+.Company-top {
+  margin-top: 3vw;
+  flex-grow: 3;
+  display: flex;
+  justify-content: space-around;
+}
+.Company-item {
+  text-align: center;
+
+}
+.Company-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.Company-item-title {
+  margin-top: 1.5em;
+}
+.Company-item-title span {
+  padding: 1px 3vw;
+  font-size: 1.4rem;
+  background: #ae0000;
+  border-radius: 4px;
+}
+.Company-bottom {
+  padding: 0 5vw;
+  flex-grow: 2;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+.Company-show-more {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+}
+.Company-show-more img {
+  margin-left: 5px;
+}
+.Company-item-content {
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+  text-align: center;
+}

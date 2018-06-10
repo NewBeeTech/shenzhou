@@ -1,0 +1,18 @@
+.Title {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Title-text {
+  display: inline-block;
+  padding-left: 20px;
+  border-left: 11px solid #ae0000;
+  font-size: 32px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
