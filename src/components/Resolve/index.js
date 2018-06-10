@@ -1,7 +1,7 @@
 import './style.css';
 import React, { Component } from 'react';
 import bgImg from '@/assets/images/resolve-bg.svg';
-import ResolveImg1 from '@/assets/images/resolved1.svg';
+import ResolveImg1 from '@/assets/images/resolve1.svg';
 import ResolveImg2 from '@/assets/images/resolve2.svg';
 import ResolveImg3 from '@/assets/images/resolve3.svg';
 import ResolveImg4 from '@/assets/images/resolve4.svg';
@@ -52,7 +52,7 @@ class Resolve extends Component {
     list.map((item, index) => {
       view.push(
         <div key={index} className="Resolve-item" style={{backgroundImage: `url(${bgImg})`, backgroundSize: 'cover'}}>
-          <img src={item.icon} alt="resolve-icon" />
+          <img className="Resolve-item-img" src={item.icon} alt="resolve-icon" />
           <div className="Resolve-item-content">{item.content}</div>
         </div>
       )

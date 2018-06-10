@@ -38,9 +38,9 @@ class Nav extends Component {
               onClick={() => this.handleList('basics')}
             ><a href="#basics">基础平台</a></li>
 						<li
-              className={this.state.selected === 'project' ? 'tab-current' : ''}
-              onClick={() => this.handleList('project')}
-            ><a href="#project">主要产品</a></li>
+              className={this.state.selected === 'product' ? 'tab-current' : ''}
+              onClick={() => this.handleList('product')}
+            ><a href="#product">主要产品</a></li>
 						<li
               className={this.state.selected === 'resolve' ? 'tab-current' : ''}
               onClick={() => this.handleList('resolve')}

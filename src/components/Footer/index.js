@@ -71,13 +71,12 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer" style={{backgroundImage: `url(${bgImg})`, backgroundSize: 'cover'}}>
+        <a name={this.props.name} id={this.props.name}> </a>
         <div className="Footer-left">
-          <img src={logo} alt="logo" />
+          <img className="Footer-left-logo" src={logo} alt="logo" />
           <div className="Footer-left-bottom">
             {this.renderLeftList()}
           </div>
-        </div>
-        <div className="Footer-line">
         </div>
         <div className="Footer-right">
           <div className="Footer-right-item">

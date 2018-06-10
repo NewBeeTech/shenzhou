@@ -7,6 +7,7 @@ class Header extends Component {
   render() {
     return (
       <div className="Header-img" style={{backgroundImage: `url(${headImg})`, backgroundSize: 'cover'}}>
+        <a name={this.props.name} id={this.props.name}> </a>
         <div className="Header-img-bottom">
           <div className="Header-img-item animated bounceIn">
             <div>MAXSim</div>

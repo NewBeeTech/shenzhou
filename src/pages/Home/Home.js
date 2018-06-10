@@ -14,9 +14,11 @@ class Home extends Component {
       <div className="Home">
         <div className="Home-header">
           <Nav selected="home" />
-          <HeaderImg />
+        </div>
+        <div className="Home-body">
+          <HeaderImg name="home" />
 
-          <Title name="home" title="北京神舟智汇科技有限公司" />
+          <Title name="culture" title="北京神舟智汇科技有限公司" />
           <Company />
 
           <Title name="basics" title="基础平台" />
@@ -27,8 +29,8 @@ class Home extends Component {
 
           <Title name="resolve" title="解决方案" />
           <Resolve />
-          
-          <Footer />
+
+          <Footer name="contact" />
         </div>
       </div>
     );

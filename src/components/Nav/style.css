@@ -8,6 +8,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	background: #fff;
 }
 .Nav-logo {
 	width: 219px;
@@ -87,6 +88,5 @@
 
 .tabs-style-linemove nav li.tab-current {
   font-weight: 600;
-  /* top: -2px; */
 	color: #ae0000;
 }
