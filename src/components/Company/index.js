@@ -17,7 +17,7 @@ const list = [{
 }, {
   icon: yuanjing,
   title: '愿景',
-  content: '神州走进新时代 军民融合谱华章',
+  content: '神舟走进新时代 军民融合谱华章',
 }]
 class Company extends Component {
   renderItem () {
