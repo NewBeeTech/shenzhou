@@ -1,11 +1,15 @@
 import './style.css';
 import React, { Component } from 'react';
 import logo from '@/assets/images/logo.svg';
+import nav from '@/assets/images/nav.svg';
 
 class Nav extends Component {
   props: {
     selected: {
       type: String
+    },
+    isShowNav: {
+      type: Boolean
     }
   }
   state: {
@@ -23,10 +27,16 @@ class Nav extends Component {
       selected: type
     })
   }
+  toggleNav () {
+    this.setState({
+      isShowNav: !this.state.isShowNav
+    })
+  }
   render() {
     return (
       <div className="Nav tabs-style-linemove">
         <img className="Nav-logo" src={logo} alt="logo" />
+        <span onClick={() => {this.toggleNav()}}><img src={nav} alt="nav" width="30"/></span>
 				<nav>
 					<ul>
             <li
@@ -59,6 +69,22 @@ class Nav extends Component {
             ><a href="#contact">联系我们</a></li>
 					</ul>
 				</nav>
+        <div
+          className={`overlay overlay-contentscale ${this.state.isShowNav ? 'open' : ''}`}
+        >
+    			<button type="button" onClick={() => {this.toggleNav()}} className="overlay-close">Close</button>
+    			<nav>
+    				<ul>
+    					<li><a onClick={() => {this.toggleNav()}} href="#home">首页</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#basics">基础平台</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#product">主要产品</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#resolve">解决方案</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#support">技术支持</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#culture">企业文化</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="#contact">联系我们</a></li>
+    				</ul>
+    			</nav>
+    		</div>
 			</div>
     );
   }

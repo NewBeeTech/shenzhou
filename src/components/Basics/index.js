@@ -18,7 +18,7 @@ const list = [{
   title: 'MagicBook',
   img: basicsImg2,
   moreUrl: 'more',
-  content: 'MagicBook是基于建模和仿真的综合虚拟训练系统，是面向虚拟仿真训练的—站式解决方案。' + <br /> + 'MagicBook是以 MSIMbox为技术内核、通过开发 设计面向业务领域的实体模型和训练想定(课程)构建 而成软件系统。 MSIMbox是支撑综合虚拟训练的完整 工具集，由开发制作环境、管理环境、运行环境组成。',
+  content: 'MagicBook是基于建模和仿真的综合虚拟训练系统，是面向虚拟仿真训练的—站式解决方案。\t MagicBook是以 MSIMbox为技术内核、通过开发 设计面向业务领域的实体模型和训练想定(课程)构建 而成软件系统。 MSIMbox是支撑综合虚拟训练的完整 工具集，由开发制作环境、管理环境、运行环境组成。',
 }, {
   title: 'MagieIETM',
   img: basicsImg3,

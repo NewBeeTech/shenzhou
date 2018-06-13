@@ -78,6 +78,8 @@ class Footer extends Component {
             {this.renderLeftList()}
           </div>
         </div>
+        <div className="Footer-middle">
+        </div>
         <div className="Footer-right">
           <div className="Footer-right-item">
             <span>关于</span>
