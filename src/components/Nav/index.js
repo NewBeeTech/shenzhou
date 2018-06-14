@@ -36,7 +36,7 @@ class Nav extends Component {
     return (
       <div className="Nav tabs-style-linemove">
         <img className="Nav-logo" src={logo} alt="logo" />
-        <span onClick={() => {this.toggleNav()}}><img src={nav} alt="nav" width="30"/></span>
+        <span onClick={() => {this.toggleNav()}}><img className="nav-icon" src={nav} alt="nav" width="30"/></span>
 				<nav>
 					<ul>
             <li

@@ -12,6 +12,12 @@
 	background: #fff;
 }
 @media screen and (min-width: 900px) {
+	.overlay {
+		display:none;
+	}
+	.nav-icon {
+		display: none;
+	}
 	.Nav-logo {
 		width: 219px;
 		height: 56px;
@@ -95,6 +101,12 @@
 	}
 }
 @media screen and (min-width: 700px) and (max-width: 900px) {
+	.overlay {
+		display:none;
+	}
+	.nav-icon {
+		display: none;
+	}
 	.Nav-logo {
 		width: 165px;
 		height: 42px;
