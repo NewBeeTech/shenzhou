@@ -11,6 +11,19 @@
   .Basics-item-left {
     width: 20vw;
     height: 22vw;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .Basics-item-left-img {
+    width: 20vw;
+    height: 22vw;
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .Basics-item-left:hover .Basics-item-left-img {
+    transform: scale(1.1);
+    opacity: 1;
   }
   .Basics-item-right {
     width: 50vw;

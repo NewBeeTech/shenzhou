@@ -12,7 +12,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="Home-header">
+        <div className="Home-header animated bounceInDown">
           <Nav selected="home" />
         </div>
         <div className="Home-body">

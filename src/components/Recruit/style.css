@@ -1,0 +1,35 @@
+/* Recruit */
+
+.Recruit-card {
+  width: 80vw;
+}
+.Recruit-top {
+  /* width: 100%; */
+  height: 2rem;
+  background: #ededed;
+  color: #233141;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+}
+
+.Recruit-body {
+  display: flex;
+  justify-content: center;
+  color: #606f80;
+  background: #fafafc;
+}
+.Recruit-body-left {
+  width: 40%;
+  border: 1px solid red;
+}
+.Recruit-body-right {
+  width: 50%;
+  border: 1px solid blue;
+}
+.Recruit-body-title {
+  font-weight: 400;
+}
+.Recruit-body-content {
+  margin-top: 20px;
+}

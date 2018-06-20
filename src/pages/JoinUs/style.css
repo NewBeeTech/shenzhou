@@ -1,0 +1,19 @@
+.JoinUs {
+  width: 100%;
+}
+.JoinUs-header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+.JoinUs-body {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}
+.JoinUs-content {
+  width: 80vw;
+  margin: 0 auto;
+}

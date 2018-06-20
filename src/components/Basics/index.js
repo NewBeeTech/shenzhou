@@ -34,7 +34,9 @@ class Basics extends Component {
     list.map((item, index) => {
       view.push(
         <div key={index} className="Basics-item animated bounceIn" style={{backgroundImage: `url(${index % 2 ? bgImg2 : bgImg1})`, backgroundSize: 'cover'}}>
-          <div className="Basics-item-left" style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover'}}>
+          <div className="Basics-item-left">
+            <div className="Basics-item-left-img" style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover'}}>
+            </div>
           </div>
           <div className="Basics-item-right">
             <div className="Basics-right-title">{item.title}</div>
