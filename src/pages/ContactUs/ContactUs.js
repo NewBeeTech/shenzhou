@@ -7,6 +7,7 @@ import ContactUsInfo from './ContactUsInfo';
 import AddressList from './AddressList';
 
 import topImg from '@/assets/images/join_us_bg.png';
+import mapImg from '@/assets/images/join-us-map.jpeg';
 
 class ContactUs extends Component {
   render() {
@@ -21,6 +22,9 @@ class ContactUs extends Component {
              <div className="contact-us-title">北京神舟智汇科技有限公司</div>
              <ContactUsInfo />
              <AddressList />
+          </div>
+          <div className="contact-us-map">
+            <img src={mapImg} className="contact-us-map" />
           </div>
           <Footer name="contact" />
         </div>
