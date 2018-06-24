@@ -4,21 +4,18 @@ import TopImg from '@/components/TopImg';
 import Recruit from '@/components/Recruit';
 import Footer from '@/components/Footer';
 
-import topImg from '@/assets/images/join_us_bg.png';
+import topImg from '@/assets/images/technical-support-img.png';
 
 class TechnicalSupport extends Component {
   render() {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="home" />
+          <Nav selected="support" />
         </div>
         <div className="JoinUs-body">
-          <TopImg topImg={topImg} title="加入我们" subTitle="JOIN US" />
-          <div className="JoinUs-content">
-            <Recruit />
-
-          </div>
+          <TopImg topImg={topImg} title="技术支持" subTitle="Technical Support" />
+          111
           <Footer name="contact" />
         </div>
       </div>
