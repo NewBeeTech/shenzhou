@@ -33,7 +33,6 @@ class Nav extends Component {
     })
   }
   render() {
-    console.log(this.state.selected)
     return (
       <div className="Nav tabs-style-linemove">
         <img className="Nav-logo" src={logo} alt="logo" />
@@ -43,31 +42,31 @@ class Nav extends Component {
             <li
               className={this.state.selected === 'home' ? 'tab-current' : ''}
               onClick={() => this.handleList('home')}
-            ><a href="#home">首页</a></li>
+            ><a href="/#home">首页</a></li>
 						<li
               className={this.state.selected === 'basics' ? 'tab-current' : ''}
               onClick={() => this.handleList('basics')}
-            ><a href="#basics">基础平台</a></li>
+            ><a href="/#basics">基础平台</a></li>
 						<li
               className={this.state.selected === 'product' ? 'tab-current' : ''}
               onClick={() => this.handleList('product')}
-            ><a href="#product">主要产品</a></li>
+            ><a href="/#product">主要产品</a></li>
 						<li
               className={this.state.selected === 'resolve' ? 'tab-current' : ''}
               onClick={() => this.handleList('resolve')}
-            ><a href="#resolve">解决方案</a></li>
+            ><a href="/#resolve">解决方案</a></li>
 						<li
               className={this.state.selected === 'support' ? 'tab-current' : ''}
               onClick={() => this.handleList('support')}
-            ><a href="#support">技术支持</a></li>
+            ><a href="/technical-support">技术支持</a></li>
 						<li
               className={this.state.selected === 'culture' ? 'tab-current' : ''}
               onClick={() => this.handleList('culture')}
-            ><a href="#culture">企业文化</a></li>
+            ><a href="/#culture">企业文化</a></li>
 						<li
               className={this.state.selected === 'contact' ? 'tab-current' : ''}
               onClick={() => this.handleList('contact')}
-            ><a href="#contact">联系我们</a></li>
+            ><a href="/contact-us">联系我们</a></li>
 					</ul>
 				</nav>
         <div

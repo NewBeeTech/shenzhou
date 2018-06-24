@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '@/components/Nav';
 import TopImg from '@/components/TopImg';
-import Recruit from '@/components/Recruit';
 import Footer from '@/components/Footer';
 import ContactUsInfo from './ContactUsInfo';
 import AddressList from './AddressList';
@@ -24,7 +23,7 @@ class ContactUs extends Component {
              <AddressList />
           </div>
           <div className="contact-us-map">
-            <img src={mapImg} className="contact-us-map" />
+            <img src={mapImg} className="contact-us-map" alt="" />
           </div>
           <Footer name="contact" />
         </div>

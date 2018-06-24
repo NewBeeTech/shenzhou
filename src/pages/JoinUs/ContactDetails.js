@@ -13,7 +13,7 @@ class ContactDetails extends Component {
            <div>Email: hr@magicode.cn</div>
          </div>
          <div className="Contact-details-right">
-           <img src={mapImg} className="Contact-details-map" />
+           <img src={mapImg} className="Contact-details-map" alt="" />
          </div>
       </div>
     );

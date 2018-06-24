@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '@/components/Nav';
 import TopImg from '@/components/TopImg';
-import Recruit from '@/components/Recruit';
 import Footer from '@/components/Footer';
 
 import topImg from '@/assets/images/technical-support-img.png';
@@ -21,7 +20,7 @@ class TechnicalSupport extends Component {
               <input
                   className="inputStyle"
                   onChange={(e) => {
-                    this.setState({ withdrawAddress: e .target.value })
+                    this.setState({ withdrawAddress: e.target.value })
                   }}
               />
               <div className="inputLeftText">姓名</div>
@@ -30,7 +29,7 @@ class TechnicalSupport extends Component {
               <input
                   className="inputStyle"
                   onChange={(e) => {
-                    this.setState({ withdrawAddress: e .target.value })
+                    this.setState({ withdrawAddress: e.target.value })
                   }}
               />
               <div className="inputLeftText">邮箱</div>
@@ -39,7 +38,7 @@ class TechnicalSupport extends Component {
               <input
                   className="inputStyle"
                   onChange={(e) => {
-                    this.setState({ withdrawAddress: e .target.value })
+                    this.setState({ withdrawAddress: e.target.value })
                   }}
               />
               <div className="inputLeftText">主题</div>
@@ -48,7 +47,7 @@ class TechnicalSupport extends Component {
               <textarea
                   className="textarea"
                   onChange={(e) => {
-                    this.setState({ withdrawAddress: e .target.value })
+                    this.setState({ withdrawAddress: e.target.value })
                   }}
               />
               <div className="inputLeftText">内容</div>
