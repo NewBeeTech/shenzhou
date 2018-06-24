@@ -33,6 +33,7 @@ class Nav extends Component {
     })
   }
   render() {
+    console.log(this.state.selected)
     return (
       <div className="Nav tabs-style-linemove">
         <img className="Nav-logo" src={logo} alt="logo" />

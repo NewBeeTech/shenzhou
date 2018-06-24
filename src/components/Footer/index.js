@@ -20,7 +20,7 @@ const rightList1 = [
   { content: '企业文化', url: '' },
   { content: '技术支持', url: '' },
   { content: '关于我们', url: '' },
-  { content: '加入我们', url: '' }
+  { content: '加入我们', url: '/join-us' }
 ]
 const rightList2 = [
   { content: 'MAXSim', url: '' },
@@ -62,7 +62,10 @@ class Footer extends Component {
     const view = [];
     list.map((item, index) => {
       view.push(
-        <div key={index} className="Footer-right-child-item">{item.content}</div>
+        <div key={index} className="Footer-right-child-item"
+           onClick={() => {
+           }}
+        >{item.content}</div>
       )
       return item;
     })
