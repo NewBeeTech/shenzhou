@@ -39,9 +39,9 @@
     align-items: center;
   }
   .Basics-item-left {
-    margin-top: 3rem;
+    /* margin-top: 3rem;
     width: 50vw;
-    height: 60vw;
+    height: 60vw; */
   }
   .Basics-item-right {
     padding: 3rem 2rem;

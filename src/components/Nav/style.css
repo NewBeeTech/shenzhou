@@ -189,6 +189,11 @@
 
 }
 @media screen and (max-width: 700px) {
+	.Nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.Nav-logo {
 		width: 110px;
 		height: 28px;
