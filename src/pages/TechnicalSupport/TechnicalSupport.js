@@ -9,11 +9,11 @@ import topImg from '@/assets/images/technical-support-img.png';
 class TechnicalSupport extends Component {
   render() {
     return (
-      <div>
-        <div>
+      <div  className="JoinUs">
+        <div className="JoinUs-header animated bounceInDown">
           <Nav selected="support" />
         </div>
-        <div>
+        <div className="JoinUs-body">
           <TopImg topImg={topImg} title="技术支持" subTitle="Technical Support" />
           <div className="support-body">
             <div className="support-body-title">请留下您宝贵的意见或建议</div>
@@ -59,7 +59,6 @@ class TechnicalSupport extends Component {
                }}
             >确认提交</div>
           </div>
-
           <Footer name="contact" />
         </div>
       </div>
