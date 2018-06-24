@@ -5,6 +5,7 @@ body {
 }
 
 html {
+  width: 100%;
   font-size: 14px;
 }
 ul {
@@ -16,11 +17,13 @@ ul {
 @media screen and (mix-width: 1440px) {
   html {
     font-size: 16px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1440px) {
   html {
     font-size: 14px;
+    width: 100%;
   }
 }
 /* @media screen and (max-width: 1190px) {
@@ -38,5 +41,6 @@ ul {
 @media screen and (max-width: 500px) {
   html {
     font-size: 12px;
+    width: 100%;
   }
 }

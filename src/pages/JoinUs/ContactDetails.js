@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import mapImg from '@/assets/images/join-us-map.jpeg';
+
 class ContactDetails extends Component {
   render() {
     return (
@@ -10,7 +12,9 @@ class ContactDetails extends Component {
            <div>联系电话：010-88506772</div>
            <div>Email: hr@magicode.cn</div>
          </div>
-         <div className="Contact-details-right">111</div>
+         <div className="Contact-details-right">
+           <img src={mapImg} className="Contact-details-map" />
+         </div>
       </div>
     );
   }
