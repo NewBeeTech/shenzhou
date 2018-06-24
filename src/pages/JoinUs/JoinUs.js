@@ -3,6 +3,7 @@ import Nav from '@/components/Nav';
 import TopImg from '@/components/TopImg';
 import Recruit from '@/components/Recruit';
 import Footer from '@/components/Footer';
+import ContactDetails from './ContactDetails';
 import{ data } from './recruitInfo';
 
 import topImg from '@/assets/images/join_us_bg.png';
@@ -19,6 +20,7 @@ class JoinUs extends Component {
           <div className="JoinUs-content">
             <Recruit data={data}/>
           </div>
+          <ContactDetails />
           <Footer name="contact" />
         </div>
       </div>

@@ -34,29 +34,6 @@
   padding-left: 1rem;
 }
 
-.Recruit-body {
-  padding: 2rem 1rem;
-  display: flex;
-  /* justify-content: center; */
-  color: #606f80;
-  background: #fafafc;
-  font-size: 0.87rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.25rem;
-}
-.Recruit-body-left {
-  width: 20rem;
-  margin-right: 10.8rem;
-}
-.Recruit-body-right {
-  width: 31rem;
-}
-.Recruit-body-title {
-  font-weight: 400;
-}
-.Recruit-body-content {
-  margin-top: 20px;
-}
 
 pre {
   white-space: pre-wrap;
@@ -69,4 +46,52 @@ pre {
   line-height:1.875rem;
   padding: 1.5rem 0;
   border-bottom: 1px solid #D4DBE3;
+}
+
+@media screen and (min-width: 500px) {
+  .Recruit-body {
+    padding: 2rem 1rem;
+    display: flex;
+    /* justify-content: center; */
+    color: #606f80;
+    background: #fafafc;
+    font-size: 0.87rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25rem;
+  }
+  .Recruit-body-left {
+    width: 20rem;
+    margin-right: 10.8rem;
+  }
+  .Recruit-body-right {
+    width: 31rem;
+  }
+  .Recruit-body-title {
+    font-weight: 400;
+  }
+  .Recruit-body-content {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Recruit-body {
+    padding: 2rem 1rem;
+    color: #606f80;
+    background: #fafafc;
+    font-size: 0.87rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25rem;
+  }
+  .Recruit-body-left {
+    width: 100%;
+  }
+  .Recruit-body-right {
+    width: 100%;
+  }
+  .Recruit-body-title {
+    font-weight: 400;
+  }
+  .Recruit-body-content {
+    margin-top: 20px;
+  }
 }
