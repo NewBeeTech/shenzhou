@@ -35,6 +35,7 @@ class Recruit extends Component {
           </span>
         </div>
         {this.showRecruitList(this.props.data)}
+        <div className="Recruit-bottom">请有意应聘者将个人简历、毕业证、学位证、身份证等相关证件、材料发送至指定邮箱， 符合条件者，我们会尽快与您联系，所有应聘资料将录入公司人才库。</div>
       </div>
     );
   }

@@ -61,3 +61,12 @@
 pre {
   white-space: pre-wrap;
 }
+
+.Recruit-bottom {
+  font-size: 1rem;
+  font-family:PingFangSC-Regular;
+  color:rgba(174,0,0,1);
+  line-height:1.875rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #D4DBE3;
+}
