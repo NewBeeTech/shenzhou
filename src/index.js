@@ -5,10 +5,11 @@ import '@/assets/stylesheet/animate.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
-import rootReducer from './reducers'
-
-const store = createStore(rootReducer)
+// import { createStore } from 'redux'
+// import rootReducer from './reducers'
+//
+// const store = createStore(rootReducer)
+import store from './store';
 
 ReactDOM.render(
   <Provider store={store}>
