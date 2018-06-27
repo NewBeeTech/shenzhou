@@ -14,15 +14,15 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={Home} />
-          // 加入我们
+          {/* 加入我们 */}
           <Route path="/join-us" component={JoinUs} />
-          // 技术支持
+          {/* 技术支持 */}
           <Route path="/technical-support" component={TechnicalSupport} />
-          // 联系我们
+          {/* 联系我们 */}
           <Route path="/contact-us" component={ContactUs} />
-          // 公司动态
+          {/* 公司动态 */}
           <Route path="/dynamic" component={Dynamic} />
-          // 公司资质
+          {/* 公司资质*/}
           <Route path="/about-us" component={AboutUs} />
         </div>
       </Router>
