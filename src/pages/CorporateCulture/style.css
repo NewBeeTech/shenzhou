@@ -1,0 +1,117 @@
+.core-idea {
+  width: 100vw;
+  padding: 3vw 10vw;
+  background-color: #F5F5F5;
+}
+
+.corporate-culture {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 3vw 0;
+}
+
+.corporate-culture-title {
+  font-size: 1.8rem;
+  color: #233141;
+  font-family:PingFangSC-Medium;
+}
+
+.corporate-culture-title-first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.corporate-culture-title-first > img {
+  width: 0.8rem;
+  height: 1.5rem;
+  margin-right: 2vw;
+}
+
+
+@media screen and (max-width: 700px) {
+  .core-idea-content {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 2vw 0;
+  }
+
+  .core-idea-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 0;
+    background-color: #F5F5F5;
+
+  }
+
+  .core-idea-item-imgdiv {
+    width: 80vw;
+    /* height: 25vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .core-idea-img {
+    width: 100%;
+  }
+  .core-idea-item-title {
+    padding: 1vw 2vw;
+    height: 4rem;
+    width: 76vw;
+    font-size: 1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+}
+  @media screen and (min-width: 500px) {
+    .core-idea-content {
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      margin: 2vw 0;
+    }
+
+    .core-idea-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2vw 0;
+      background-color: #F5F5F5;
+
+    }
+
+    .core-idea-item-imgdiv {
+      width: 38vw;
+      height: 25vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .core-idea-img {
+      width: 100%;
+    }
+
+    .core-idea-item-title {
+      padding: 1vw 2vw;
+      height: 4rem;
+      width: 34vw;
+      font-size: 1rem;
+      font-family:PingFangSC-Regular;
+      color:rgba(96,111,128,1);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+  }
