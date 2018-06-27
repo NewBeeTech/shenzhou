@@ -7,6 +7,7 @@ import TechnicalSupport from './pages/TechnicalSupport'
 import ContactUs from './pages/ContactUs'
 import Dynamic from './pages/Dynamic'
 import AboutUs from './pages/AboutUs'
+import CorporateCulture from './pages/CorporateCulture'
 
 class App extends Component {
   render() {
@@ -24,6 +25,9 @@ class App extends Component {
           <Route path="/dynamic" component={Dynamic} />
           {/* 公司资质*/}
           <Route path="/about-us" component={AboutUs} />
+          {/* 企业文化 */}
+          <Route path="/corporate-culture" component={CorporateCulture} />
+
         </div>
       </Router>
     );
