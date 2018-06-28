@@ -15,8 +15,9 @@ class MagicWG extends Component {
   showCompositionData(data) {
     const views = [];
     if(data) {
+      const lengthNum = data.length;
       data.map((item, key) => {
-        views.push(<CompositionBody leftImg={item.img} title={item.title} content={item.content} key={key} />);
+        views.push(<CompositionBody leftImg={item.img} title={item.title} content={item.content} key={key} islast={lengthNum - 1 === key} />);
       })
     }
     return views;

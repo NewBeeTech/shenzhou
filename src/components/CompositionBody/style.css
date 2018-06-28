@@ -12,11 +12,17 @@
 }
 
 .compositionBody-right {
+    width: 100%;
     height: 8.75rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: space-between;
+}
+
+.islast {
+    padding-bottom: 2rem;
+    border-bottom: 3px dashed #A9BBCF
 }
 
 .compositionBody-right-title {
@@ -26,6 +32,7 @@
     font-size:1.2rem;
     font-family:PingFangSC-Medium;
     color:rgba(96,111,128,1);
+    margin-bottom: 2rem;
 }
 
 .compositionBody-right-title > div {

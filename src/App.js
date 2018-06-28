@@ -12,6 +12,7 @@ import MagicWG from './pages/MagicWG'
 import MagicST from './pages/MagicST'
 import AnalogEquipment from './pages/AnalogEquipment'
 import HelicopterSystem from './pages/HelicopterSystem'
+import TankSystem from './pages/TankSystem'
 
 class App extends Component {
   render() {
@@ -39,6 +40,8 @@ class App extends Component {
           <Route path="/analog-equipment" component={AnalogEquipment} />
           {/* 直升机特情处置虚拟训练系统   */}
           <Route path="/helicopter-system" component={HelicopterSystem} />
+          {/* 坦克机动作战协同虚拟训练系统    */}
+          <Route path="/tank-system" component={TankSystem} />
           
         </div>
       </Router>
