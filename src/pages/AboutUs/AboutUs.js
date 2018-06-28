@@ -4,7 +4,7 @@ import TopImg from '@/components/TopImg';
 import Footer from '@/components/Footer';
 import { data } from './AboutUsData';
 
-import topImg from '@/assets/images/join_us_bg.png';
+import topImg from '@/assets/images/about-us-bg.png';
 
 class AboutUs extends Component {
   showImg(datas) {

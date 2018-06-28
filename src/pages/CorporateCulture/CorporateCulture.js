@@ -7,6 +7,10 @@ import { data } from './CorporateCultureData';
 
 import topImg from '@/assets/images/corporate-culture-bg.png';
 import IdeaImg from '@/assets/images/corporate-culture-img10.png';
+import staffPresence1 from '@/assets/images/corporate-culture-img1.png';
+import staffPresence2 from '@/assets/images/corporate-culture-img2.png';
+import staffPresence4 from '@/assets/images/corporate-culture-img4.png';
+import staffPresence3 from '@/assets/images/corporate-culture-img3.png';
 
 class CorporateCulture extends Component {
   showImg(datas) {
@@ -55,6 +59,27 @@ class CorporateCulture extends Component {
 
           <div className="core-idea">
              <CorporateCultureTitle title="员工风采" EnglishTitle="Staff Presence"/>
+             <div className="staff-presence1">
+                <img src={staffPresence1} alt="" />
+                <div className="staff-presence1-text">团日活动激发了员工饱满的工作热情</div>
+             </div>
+
+             <div className="staff-presence2">
+               <div className="staff-presence2">
+                  <img src={staffPresence2} alt="" />
+                  <div className="staff-presence2-text">神舟智汇代表天津市滨海新区军民融合创新研究院出战篮球赛</div>
+               </div>
+
+               <div className="staff-presence2">
+                  <img src={staffPresence4} alt="" />
+                  <div className="staff-presence2-text">真人CS游戏锻炼了员工的团队协作能力</div>
+               </div>
+             </div>
+
+             <div className="staff-presence1">
+                <img src={staffPresence3} alt="" />
+                <div className="staff-presence1-text">公司组织员工参加青年节主题活动</div>
+             </div>
           </div>
 
           <Footer name="contact" />
