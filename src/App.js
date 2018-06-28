@@ -11,6 +11,7 @@ import CorporateCulture from './pages/CorporateCulture'
 import MagicWG from './pages/MagicWG'
 import MagicST from './pages/MagicST'
 import AnalogEquipment from './pages/AnalogEquipment'
+import HelicopterSystem from './pages/HelicopterSystem'
 
 class App extends Component {
   render() {
@@ -36,6 +37,8 @@ class App extends Component {
           <Route path="/magic-st" component={MagicST} />
           {/* 模拟训练装备  */}
           <Route path="/analog-equipment" component={AnalogEquipment} />
+          {/* 直升机特情处置虚拟训练系统   */}
+          <Route path="/helicopter-system" component={HelicopterSystem} />
           
         </div>
       </Router>
