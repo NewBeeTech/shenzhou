@@ -5,10 +5,10 @@
     margin: 4vw 0;
 }
 
-.CompositionBody > img {
+.CompositionBody > div > img {
     width: 8.75rem;
     height: 8.75rem;
-    margin-right: 4rem;
+    margin-right: 6rem;
 }
 
 .compositionBody-right {

@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import CompositionBody from '@/components/CompositionBody';
+import Characteristics from '@/components/Characteristics'
 import { compositionData } from './MagicWGData';
 
 import topImg from '@/assets/images/magic-wg-bg.png';
@@ -48,6 +49,12 @@ class MagicWG extends Component {
 
           <div className="magic-wg-technical">
             <CommonTitle title="技术特点" />
+            <div className="magic-wg-technical-content">
+              <div className="magic-wg-technical-content-div1"><Characteristics num="01" content="推演工位编组、权限与实际岗位配置一致，指挥要素、作战要素齐全，并提供模型编辑与席位编辑工具，可任意扩展模型及推演席位;" /></div>
+              <div className="magic-wg-technical-content-div2"><Characteristics num="02" content="能够完成各级指挥员及参谋人员的编组作业、指挥流程、运筹计算等基本技能训练；" /></div>
+              <div className="magic-wg-technical-content-div3"><Characteristics num="03" content="能够完成战术机动、火力突击、防卫作战等各阶段作战行动和全流程作战行动推演，实现了规则及裁决流程外置，可通过可视化界面完成规则及裁决流程的添加与修改;" /></div>
+              <div className="magic-wg-technical-content-div4"><Characteristics num="04" content="支持对部（分）队某一特殊行动、某一特殊战场和某一特殊环境的案例研究和情境再现，能够进行辅助教学，支持作战流程、指挥流程和各环节指挥要点的演示与教学。" /></div>
+            </div>
           </div>
           
           <Footer name="contact" />

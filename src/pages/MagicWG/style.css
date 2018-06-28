@@ -34,3 +34,35 @@
     padding: 4rem 0;
 }
 
+.magic-wg-technical-content {
+    padding: 4rem 10vw;
+}
+
+
+.magic-wg-technical-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.magic-wg-technical-content > div {
+    width: calc(40vw - 1px - 6rem);
+}
+
+.magic-wg-technical-content-div1 {
+    border-right: 1px solid rgba(209,220,235,1);
+    border-bottom: 1px solid rgba(209,220,235,1);
+    padding: 1rem 3rem 4rem;
+}
+.magic-wg-technical-content-div2 {
+    border-bottom: 1px solid rgba(209,220,235,1);
+    padding: 1rem 3rem 4rem;
+}
+.magic-wg-technical-content-div3 {
+    padding: 4rem 3rem 1rem;
+}
+
+.magic-wg-technical-content-div4 {
+    border-left: 1px solid rgba(209,220,235,1);
+    padding: 4rem 3rem 1rem;
+}
+
