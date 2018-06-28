@@ -8,6 +8,7 @@ import ContactUs from './pages/ContactUs'
 import Dynamic from './pages/Dynamic'
 import AboutUs from './pages/AboutUs'
 import CorporateCulture from './pages/CorporateCulture'
+import MagicWG from './pages/MagicWG'
 
 class App extends Component {
   render() {
@@ -27,7 +28,9 @@ class App extends Component {
           <Route path="/about-us" component={AboutUs} />
           {/* 企业文化 */}
           <Route path="/corporate-culture" component={CorporateCulture} />
-
+          {/* 兵棋推演系统 */}
+          <Route path="/magic-wg" component={MagicWG} />
+          
         </div>
       </Router>
     );
