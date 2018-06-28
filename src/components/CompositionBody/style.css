@@ -1,0 +1,45 @@
+.CompositionBody {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin: 4vw 0;
+}
+
+.CompositionBody > img {
+    width: 8.75rem;
+    height: 8.75rem;
+    margin-right: 4rem;
+}
+
+.compositionBody-right {
+    height: 8.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.compositionBody-right-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:1.2rem;
+    font-family:PingFangSC-Medium;
+    color:rgba(96,111,128,1);
+}
+
+.compositionBody-right-title > div {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background:rgba(174,0,0,1);
+    margin-right: 2rem;
+
+}
+
+.compositionBody-right-content {
+    font-size: 1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    line-height: 2rem;
+}
