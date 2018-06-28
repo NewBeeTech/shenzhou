@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs'
 import CorporateCulture from './pages/CorporateCulture'
 import MagicWG from './pages/MagicWG'
 import MagicST from './pages/MagicST'
+import AnalogEquipment from './pages/AnalogEquipment'
 
 class App extends Component {
   render() {
@@ -33,6 +34,8 @@ class App extends Component {
           <Route path="/magic-wg" component={MagicWG} />
           {/* MagicST电子沙盘推演系统  */}
           <Route path="/magic-st" component={MagicST} />
+          {/* 模拟训练装备  */}
+          <Route path="/analog-equipment" component={AnalogEquipment} />
           
         </div>
       </Router>
