@@ -8,6 +8,7 @@ import CompositionBody from '@/components/CompositionBody';
 import { compositionData } from './MagicWGData';
 
 import topImg from '@/assets/images/magic-wg-bg.png';
+import magicImg from '@/assets/images/magic-wg-img1.png';
 
 class MagicWG extends Component {
   showCompositionData(data) {
@@ -35,13 +36,17 @@ class MagicWG extends Component {
           <div className="magic-wg-system-composition">
             <CommonTitle title="系统组成" />
             {this.showCompositionData(compositionData)}
+            <div className="magic-wg-system-composition-img">
+              <img src={magicImg} alt="" />
+              <div>计算机兵棋推演子系统</div>
+            </div>
           </div>
 
-          <div>
-            <CommonTitle title="产品图片" />
+          <div className="magic-wg-product-img">
+            <CommonTitle title="产品图片" color="#fff"/>
           </div>
 
-          <div>
+          <div className="magic-wg-technical">
             <CommonTitle title="技术特点" />
           </div>
           

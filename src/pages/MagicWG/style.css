@@ -2,3 +2,35 @@
     background: #F6F6F6;
     padding: 5vw 10vw;
 }
+
+.magic-wg-system-composition-img {
+   border-top: 2px dashed #606F80;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80vw;
+   margin: 0 auto;
+   padding: 5rem 0;
+}
+
+.magic-wg-system-composition-img > img {
+    width: 70%;
+}
+
+.magic-wg-system-composition-img > div {
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    margin-top: 5rem;
+}
+
+.magic-wg-product-img {
+    background: #161F2A;
+    padding: 4rem 0;
+}
+
+.magic-wg-technical {
+    padding: 4rem 0;
+}
+

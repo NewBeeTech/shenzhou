@@ -5,7 +5,7 @@ class CommonTitle extends Component {
   render() {
     return (
       <div className="CommonTitle">
-          <div className="CommonTitle-title">{this.props.title}</div>
+          <div className="CommonTitle-title" style={{ color: this.props.color }}>{this.props.title}</div>
           <div className="CommonTitle-border"/>
       </div>
     );
