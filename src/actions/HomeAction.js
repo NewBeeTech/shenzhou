@@ -7,7 +7,7 @@ import { message } from 'antd';
 
 // 提交技术支持
 export const LEAVE_MSG = 'LEAVE_MSG';
-export const leaveMsg = (params: Object) => (dispatch) => {
+export const leaveMsg = (params) => (dispatch) => {
   console.log('params', params)
   const result = GET(URL.leaveMsgPath, params);
   AsyncFetchHandler(

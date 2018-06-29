@@ -17,9 +17,9 @@ const leftList = [{
   content: 'info@maficode.com',
 }]
 const rightList1 = [
-  { content: '企业文化', url: '' },
-  { content: '技术支持', url: '' },
-  { content: '关于我们', url: '' },
+  { content: '企业文化', url: '/corporate-culture' },
+  { content: '技术支持', url: '/technical-support' },
+  { content: '关于我们', url: '/dynamic' },
   { content: '加入我们', url: '/join-us' }
 ]
 const rightList2 = [
@@ -64,10 +64,9 @@ class Footer extends Component {
     const view = [];
     list.map((item, index) => {
       view.push(
-        <div key={index} className="Footer-right-child-item"
-           onClick={() => {
-           }}
-        >{item.content}</div>
+        <a key={index} className="Footer-right-child-item"
+          href={item.url}
+        >{item.content}</a>
       )
       return item;
     })

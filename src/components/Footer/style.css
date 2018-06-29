@@ -5,6 +5,12 @@
   color: #d4dbe3;
   padding: 4vw 0;
 }
+
+.Footer-right-child-item:hover,
+	.Footer-right-child-item:focus {
+		color: #f0f0f0;
+  }
+  
 @media screen and (min-width: 900px) {
   .Footer-left {
     font-size: 1.14rem;
@@ -52,7 +58,11 @@
     line-height: 3rem;
     font-size: 1rem;
     cursor: pointer;
+    display: block;
+		color: #fff;
+    text-decoration: none;
   }
+
 }
 @media screen and (max-width: 900px) {
   .Footer {
@@ -117,7 +127,11 @@
   .Footer-right-child-item {
     line-height: 3rem;
     font-size: 1rem;
-    padding-right: 2rem;
     cursor: pointer;
+    display: block;
+		color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
   }
+  
 }
