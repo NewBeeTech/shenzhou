@@ -5,7 +5,7 @@
   color: #d4dbe3;
   padding: 4vw 0;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 900px) {
   .Footer-left {
     font-size: 1.14rem;
     width: 25vw;
@@ -54,7 +54,7 @@
     cursor: pointer;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .Footer {
     width: 100%;
     display: flex;

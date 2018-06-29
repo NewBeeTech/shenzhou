@@ -20,6 +20,7 @@
   display: flex;
   color: #fff;
 }
+
 .Header-img-item {
   width: 33.3%;
   text-align: center;
@@ -28,12 +29,24 @@
   align-items: center;
   justify-content: center;
 }
-.Header-img-bottom .Header-img-item div:first-child {
-  font-size: 1.2rem;
-  line-height: 2em;
-  font-family: AbadiMT-CondensedExtraBold;
-}
 .Header-img-bottom .Header-img-item div:last-child {
   font-size: 1rem;
   font-family: ArialUnicodeMS;
+}
+
+
+@media screen and (max-width: 500px) {
+  .Header-img-bottom .Header-img-item div:first-child {
+    font-size: 1rem;
+    line-height: 2em;
+    font-family: AbadiMT-CondensedExtraBold;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .Header-img-bottom .Header-img-item div:first-child {
+    font-size: 1.2rem;
+    line-height: 2em;
+    font-family: AbadiMT-CondensedExtraBold;
+  }
 }
