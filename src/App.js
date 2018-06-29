@@ -18,6 +18,7 @@ import NavalVessels from './pages/NavalVessels'
 import CoachMonitoring from './pages/CoachMonitoring'
 import SubmarineSystem from './pages/SubmarineSystem'
 import CarLauncher from './pages/CarLauncher'
+import RocketSystem from './pages/RocketSystem'
 
 class App extends Component {
   render() {
@@ -57,6 +58,8 @@ class App extends Component {
           <Route path="/submarine-system" component={SubmarineSystem} />
           {/* 发射车虚拟操作训练系统      */}
           <Route path="/car-launcher" component={CarLauncher} />
+           {/* 火箭军战术训练模拟系统      */}
+           <Route path="/rocket-system" component={RocketSystem} />
           
         </div>
       </Router>
