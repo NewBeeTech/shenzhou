@@ -9,7 +9,6 @@ import Characteristics from '@/components/Characteristics'
 import { compositionData } from './CoachMonitoringData';
 
 import topImg from '@/assets/images/coach-monitoring-bg.png';
-import magicImg from '@/assets/images/simulation-system-img1.png';
 
 class CoachMonitoring extends Component {
   showCompositionData(data) {
