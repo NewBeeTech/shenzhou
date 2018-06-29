@@ -64,7 +64,7 @@ class CorporateCulture extends Component {
                 <div className="staff-presence1-text">团日活动激发了员工饱满的工作热情</div>
              </div>
 
-             <div className="staff-presence2">
+             <div className="staff-presence2-body">
                <div className="staff-presence2">
                   <img src={staffPresence2} alt="" />
                   <div className="staff-presence2-text">神舟智汇代表天津市滨海新区军民融合创新研究院出战篮球赛</div>
