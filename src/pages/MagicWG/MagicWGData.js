@@ -2,6 +2,12 @@ import img1 from '@/assets/images/magic-wg-img4.png';
 import img2 from '@/assets/images/magic-wg-img3.png';
 import img3 from '@/assets/images/magic-wg-img2.png';
 
+import projectImg1 from '@/assets/images/magic-wg-project-img1.png';
+import projectImg2 from '@/assets/images/magic-wg-project-img2.png';
+import projectImg3 from '@/assets/images/magic-wg-project-img3.png';
+import projectImg4 from '@/assets/images/magic-wg-project-img4.png';
+import projectImg5 from '@/assets/images/magic-wg-project-img5.png';
+
 
 export const compositionData = [{
     title: '兵棋编辑软件',
@@ -16,4 +22,6 @@ export const compositionData = [{
     content: '数据库模块为兵棋推演系统提供数据支持，并通过库类管理模块对各个数据库进行管理，根据兵棋推演需求，建立相应想定库、算法库、知识库、模型库和方法库。',
     img: img3
   }]
+
+  export const projectData = [projectImg1, projectImg2, projectImg3, projectImg4, projectImg5]
   

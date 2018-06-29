@@ -6,7 +6,7 @@ import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import CompositionBody from '@/components/CompositionBody';
 import Characteristics from '@/components/Characteristics'
-import { compositionData } from './MagicWGData';
+import { compositionData, projectData } from './MagicWGData';
 
 import topImg from '@/assets/images/magic-wg-bg.png';
 import magicImg from '@/assets/images/magic-wg-img1.png';

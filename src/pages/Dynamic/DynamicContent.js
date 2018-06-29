@@ -3,6 +3,8 @@ import { data } from './DynamicData'
 import left from '@/assets/images/dynamic-date-left.svg';
 import right from '@/assets/images/dynamic-date-right.svg';
 import moreData from '@/assets/images/dynamic-info-more.svg';
+import PageConent from '@/components/PageConent';
+
 
 class DynamicContent extends Component {
   showDynamicList(data) {
@@ -36,7 +38,11 @@ class DynamicContent extends Component {
              {this.showDynamicList(data)}
           </div>
           <div className="dynamic-page">
-            111
+            <PageConent 
+               current={1}
+               total={20}
+               pageSize={10}
+            />
           </div>
       </div>
     );

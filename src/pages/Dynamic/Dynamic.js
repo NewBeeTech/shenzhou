@@ -4,6 +4,7 @@ import TopImg from '@/components/TopImg';
 import Footer from '@/components/Footer';
 import DynamicContent from './DynamicContent';
 
+
 import topImg from '@/assets/images/dynamic-bg.png';
 
 class Dynamic extends Component {
