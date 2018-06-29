@@ -5,7 +5,8 @@ import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import CharacteristicsRow from '@/components/CharacteristicsRow'
-// import { compositionData } from './MagicWGData';
+import Carousel from '@/components/Carousel'
+import { projectData } from './MagicWGData';
 
 import topImg from '@/assets/images/magic-st-bg.png';
 import magicImg from '@/assets/images/magic-st-img1.png';
@@ -39,6 +40,7 @@ class MagicST extends Component {
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-st-technical">

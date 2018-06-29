@@ -25,13 +25,23 @@
     }
     
     .Carousel-left, .Carousel-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 20vw;
+        height: 12.5vw;
         background: #161F2A;
+        overflow: hidden;
     }
     
     .Carousel-center-heightLine {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 35vw;
+        height: 18.75vw;
         box-shadow:0px 0px 11px 0px rgba(12,225,255,1);
+        overflow: hidden;
     }
     
     .Carousel-left > img, .Carousel-right > img, .Carousel-center-heightLine > img {
@@ -71,12 +81,23 @@
     }
     
     .Carousel-left, .Carousel-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 20vw;
+        height: 12.5vw;
         background: #161F2A;
+        overflow: hidden;
     }
     
     .Carousel-center-heightLine {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 35vw;
+        height: 18.75vw;
+        box-shadow:0px 0px 11px 0px rgba(12,225,255,1);
+        overflow: hidden;
     }
     
     .Carousel-left > img, .Carousel-right > img, .Carousel-center-heightLine > img {
