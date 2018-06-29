@@ -15,6 +15,7 @@ import HelicopterSystem from './pages/HelicopterSystem'
 import TankSystem from './pages/TankSystem'
 import SimulationSystem from './pages/SimulationSystem'
 import NavalVessels from './pages/NavalVessels'
+import CoachMonitoring from './pages/CoachMonitoring'
 
 class App extends Component {
   render() {
@@ -48,6 +49,9 @@ class App extends Component {
           <Route path="/simulation-system" component={SimulationSystem} />
           {/* 水面舰艇损管虚拟训练系统     */}
           <Route path="/naval-vessels" component={NavalVessels} />
+          {/* 教练监控系统      */}
+          <Route path="/coach-monitoring" component={CoachMonitoring} />
+          
           
         </div>
       </Router>
