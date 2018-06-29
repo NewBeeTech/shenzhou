@@ -28,8 +28,8 @@ const rightList2 = [
   { content: 'MagicIETM', url: '' }
 ]
 const rightList3 = [
-  { content: 'MagicST', url: '' },
-  { content: 'MagicWG', url: '' },
+  { content: 'MagicST', url: '/magic-st' },
+  { content: 'MagicWG', url: '/magic-wg' },
   { content: '飞行模拟器', url: '' },
   { content: '装甲车模拟器', url: '' },
   { content: '炮兵模拟器', url: '' },
