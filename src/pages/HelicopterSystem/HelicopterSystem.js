@@ -8,7 +8,6 @@ import Characteristics from '@/components/Characteristics'
 import { compositionData } from './HelicopterSystemData';
 
 import topImg from '@/assets/images/helicopter-system-bg.png';
-import magicImg from '@/assets/images/magic-wg-img1.png';
 
 class HelicopterSystem extends Component {
   showCompositionData(data) {

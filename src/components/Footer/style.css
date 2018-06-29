@@ -20,7 +20,7 @@
   }
   .Footer-left-item {
     display: flex;
-    line-height: 2em;
+    line-height: 3em;
   }
   .Footer-left-content {
     margin-left: 0.6rem;
@@ -49,7 +49,7 @@
     border-bottom: 4px solid #d4dbe3;
   }
   .Footer-right-child-item {
-    line-height: 2rem;
+    line-height: 3rem;
     font-size: 1rem;
     cursor: pointer;
   }
@@ -79,7 +79,7 @@
   }
   .Footer-left-item {
     display: flex;
-    line-height: 2em;
+    line-height: 3em;
   }
   .Footer-left-content {
     margin-left: 0.6rem;
@@ -115,7 +115,7 @@
     border-bottom: 4px solid #d4dbe3;
   }
   .Footer-right-child-item {
-    line-height: 2rem;
+    line-height: 3rem;
     font-size: 1rem;
     padding-right: 2rem;
     cursor: pointer;

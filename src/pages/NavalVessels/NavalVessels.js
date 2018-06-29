@@ -9,7 +9,6 @@ import Characteristics from '@/components/Characteristics'
 import { compositionData } from './NavalVesselsData';
 
 import topImg from '@/assets/images/naval-vessels-bg.png';
-import magicImg from '@/assets/images/simulation-system-img1.png';
 
 class NavalVessels extends Component {
   showCompositionData(data) {

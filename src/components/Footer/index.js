@@ -25,20 +25,22 @@ const rightList1 = [
 const rightList2 = [
   { content: 'MAXSim', url: '' },
   { content: 'MagicBook', url: '' },
-  { content: 'Magic IETM', url: '' }
+  { content: 'MagicIETM', url: '' }
 ]
 const rightList3 = [
   { content: 'MagicST', url: '' },
   { content: 'MagicWG', url: '' },
-  { content: 'MagicIST', url: '' },
   { content: '飞行模拟器', url: '' },
   { content: '装甲车模拟器', url: '' },
-  { content: '炮兵模拟器', url: '' }
+  { content: '炮兵模拟器', url: '' },
+  { content: '职业教育在线课程', url: '' },
 ]
 const rightList4 = [
   { content: '陆军航空兵战术对抗训练模拟系统', url: '' },
   { content: '直升机控制停车特情处理模拟训练', url: '' },
   { content: '坦克机动车战协同虚拟训练', url: '' },
+  { content: '水面舰艇损管虚拟训练系统', url: '' },
+  { content: '空军作战指挥训练仿真系统', url: '' },
   { content: '全部案例', url: '' }
 ]
 class Footer extends Component {
