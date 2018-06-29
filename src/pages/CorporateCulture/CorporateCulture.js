@@ -33,7 +33,7 @@ class CorporateCulture extends Component {
     return (
       <div className="JoinUs">
         <div className="JoinUs-header animated bounceInDown">
-          <Nav selected="contact" />
+          <Nav selected="culture" />
         </div>
         <div className="JoinUs-body">
           <TopImg topImg={topImg} title="公司文化" subTitle="ABOUT US" />

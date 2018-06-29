@@ -4,19 +4,19 @@ import logo from '@/assets/images/logo.svg';
 import nav from '@/assets/images/nav.svg';
 
 class Nav extends Component {
-  props: {
-    selected: {
-      type: String
-    },
-    isShowNav: {
-      type: Boolean
-    }
-  }
-  state: {
-    selected: {
-      type: String
-    }
-  }
+  // props: {
+  //   selected: {
+  //     type: String
+  //   },
+  //   isShowNav: {
+  //     type: Boolean
+  //   }
+  // }
+  // state: {
+  //   selected: {
+  //     type: String
+  //   }
+  // }
   componentWillMount() {
     this.setState({
       selected: this.props.selected
@@ -62,7 +62,7 @@ class Nav extends Component {
 						<li
               className={this.state.selected === 'culture' ? 'tab-current' : ''}
               onClick={() => this.handleList('culture')}
-            ><a href="/#culture">企业文化</a></li>
+            ><a href="/corporate-culture">企业文化</a></li>
 						<li
               className={this.state.selected === 'contact' ? 'tab-current' : ''}
               onClick={() => this.handleList('contact')}
@@ -80,7 +80,7 @@ class Nav extends Component {
     					<li><a onClick={() => {this.toggleNav()}} href="/#product">主要产品</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/#resolve">解决方案</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/technical-support">技术支持</a></li>
-    					<li><a onClick={() => {this.toggleNav()}} href="/#culture">企业文化</a></li>
+    					<li><a onClick={() => {this.toggleNav()}} href="/corporate-culture">企业文化</a></li>
     					<li><a onClick={() => {this.toggleNav()}} href="/contact-us">联系我们</a></li>
     				</ul>
     			</nav>
