@@ -13,6 +13,7 @@ import MagicST from './pages/MagicST'
 import AnalogEquipment from './pages/AnalogEquipment'
 import HelicopterSystem from './pages/HelicopterSystem'
 import TankSystem from './pages/TankSystem'
+import SimulationSystem from './pages/SimulationSystem'
 
 class App extends Component {
   render() {
@@ -42,6 +43,8 @@ class App extends Component {
           <Route path="/helicopter-system" component={HelicopterSystem} />
           {/* 坦克机动作战协同虚拟训练系统    */}
           <Route path="/tank-system" component={TankSystem} />
+          {/* 新型编制单元作战效能仿真系统    */}
+          <Route path="/simulation-system" component={SimulationSystem} />
           
         </div>
       </Router>
