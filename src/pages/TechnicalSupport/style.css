@@ -13,14 +13,15 @@
     margin: 6.25rem 0 3rem;
   }
   .inputDiv {
-    width: 40rem;
+    width: 44rem;
     position:relative;
     margin: 15px 0;
   }
   .inputStyle {
     -webkit-apperance:normal;
     outline:none;
-    width: 100%;
+    /* width: 100%; */
+    width: 40rem;
     height: 3.5rem;
     border-radius: 6px;
     border: solid 1px #adb5c0;
@@ -34,7 +35,7 @@
   .textarea {
     -webkit-apperance:normal;
     outline:none;
-    width: 100%;
+    width: 40rem;
     height: 3.5rem;
     border-radius: 6px;
     border: solid 1px #adb5c0;
