@@ -46,9 +46,9 @@ class TankSystem extends Component {
           <div className="magic-wg-technical">
             <CommonTitle title="技术特点" />
             <div className="helicopter-system-technical-content">
-              <div><Characteristics num="01" content="能够实现教官与学员联机互动、武器装备不同岗位人员的协同训练、红蓝双方或多方实体的对抗训练。" /></div>
-              <div><Characteristics num="02" content="不同岗位的乘员具有不同的视景，可以进行各自职责范围内的操作。" /></div>
-              <div><Characteristics num="03" content="坦克乘员CGF能够模拟特定岗位人员的操作，可以智能配合其它岗位上实际受训乘员的操作，使陪同受训者同样获得训练的效果。" /></div>
+              <div><Characteristics num="01" content="能够实现教官与学员联机互动、武器装备不同岗位人员的协同训练、红蓝双方或多方实体的对抗训练。" subTitle="系统提供分布式训练功能（DMT)" /></div>
+              <div><Characteristics num="02" content="不同岗位的乘员具有不同的视景，可以进行各自职责范围内的操作。" subTitle="坦克乘员协同训练"/></div>
+              <div><Characteristics num="03" content="坦克乘员CGF能够模拟特定岗位人员的操作，可以智能配合其它岗位上实际受训乘员的操作，使陪同受训者同样获得训练的效果。" subTitle="CGF模拟特定岗位人员的操作"/></div>
             </div>
           </div>
           

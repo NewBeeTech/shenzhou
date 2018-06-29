@@ -19,3 +19,18 @@
     margin-top: 3rem;
     line-height: 2rem;
 }
+
+.characteristics-subTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 2rem;
+    border:1px solid rgba(209,220,235,1);
+    border-radius: 1rem;
+    font-size:1rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(96,111,128,1);
+    text-align: center;
+    padding: 0.5rem 0;
+}
