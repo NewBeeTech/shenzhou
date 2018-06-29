@@ -37,10 +37,10 @@ const rightList3 = [
 ]
 const rightList4 = [
   { content: '陆军航空兵战术对抗训练模拟系统', url: '' },
-  { content: '直升机控制停车特情处理模拟训练', url: '' },
-  { content: '坦克机动车战协同虚拟训练', url: '' },
-  { content: '水面舰艇损管虚拟训练系统', url: '' },
-  { content: '空军作战指挥训练仿真系统', url: '' },
+  { content: '直升机控制停车特情处理模拟训练', url: '/helicopter-system' },
+  { content: '坦克机动车战协同虚拟训练', url: '/tank-system' },
+  { content: '水面舰艇损管虚拟训练系统', url: '/naval-vessels' },
+  { content: '空军作战指挥训练仿真系统', url: '/simulation-system' },
   { content: '全部案例', url: '' }
 ]
 class Footer extends Component {

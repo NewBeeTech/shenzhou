@@ -53,7 +53,7 @@ class HelicopterSystem extends Component {
             <div className="helicopter-system-technical-content">
               <div><Characteristics num="01" content="直升机飞行员的舱外视景与舱内操作面板浑然一体，舱外视景逼真度高，舱内模型和多功能面板细节丰富，最大限度地创造第一人称视角下的真实体验。基于普通图形工作站进行视景仿真，其硬件成本低、绘制帧率稳定、性价比高。" /></div>
               <div><Characteristics num="02" content="具有特情处置知识经验的虚拟飞行教官能够在准确的时间节点、运用简洁的语言文字、采用丰富的提示手段，为受训飞行员提供指导。受训飞行员真正遇到特情时，能够做到胸有成竹、游刃有余、从容应对。" /></div>
-              <div><Characteristics num="03" content="直升机飞行员进行训练时不受时间、地点、天气、人员等条件限制。教官和管理者可以全面跟踪了解任何受训飞行员的训练过程情况和训练成绩。" /></div>
+              <div ><Characteristics num="03" content="直升机飞行员进行训练时不受时间、地点、天气、人员等条件限制。教官和管理者可以全面跟踪了解任何受训飞行员的训练过程情况和训练成绩。" /></div>
             </div>
           </div>
           
