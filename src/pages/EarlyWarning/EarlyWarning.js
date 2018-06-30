@@ -6,12 +6,29 @@ import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import Characteristics from '@/components/Characteristics'
 import Carousel from '@/components/Carousel'
-import { projectData } from './EarlyWarningData';
+import { projectData, compositionData } from './EarlyWarningData';
 
 import topImg from '@/assets/images/early-warning-bg.png';
 import magicImg from '@/assets/images/early-warning-img1.png';
 
 class EarlyWarning extends Component {
+  showDataList (data) {
+    const views = [];
+    if(data) {
+      data.map((item, key) => {
+        views.push(
+          <div key={key} className="max-sim-system-item">
+            <div className="max-sim-system-title">
+              <div className="army-system-red-div"/>
+              <div>{item.title}</div>
+            </div>
+            <div className="max-sim-system-content">{item.content}</div>
+          </div>
+        )
+      })
+    }
+    return views;
+  }
   render() {
     return (
       <div className="JoinUs">
@@ -33,9 +50,15 @@ class EarlyWarning extends Component {
               content={
                 ['本系统包括综合导演台、系统监控台、数据管理台、环境仿真台/二维态势显示台、红方导演台、蓝方导演台、三维态势显示台，可实现不同的战术对抗训练模式。']}
             />
-             <div className="magic-st-system-composition-img">
-              <img src={magicImg} alt="" />
+
+             <div className="max-sim-system-body army-system-body">
+                <div className="early-warning-img">
+                  <img src={magicImg} alt="" />
+                </div>
+                {this.showDataList(compositionData)}
              </div>
+
+             
           </div>
 
           <div className="magic-wg-product-img">

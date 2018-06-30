@@ -110,3 +110,20 @@
     }
 
 }
+
+.Carousel-big-img {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(10,23,46,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-big-img > div > img {
+    width: 100%;
+}
