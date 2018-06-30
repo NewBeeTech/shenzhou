@@ -4,12 +4,12 @@ import TopImgForMagic from '@/components/TopImgForMagic';
 import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
-import CharacteristicsRow from '@/components/CharacteristicsRow'
+import Characteristics from '@/components/Characteristics'
 import Carousel from '@/components/Carousel'
 import { projectData } from './EarlyWarningData';
 
-import topImg from '@/assets/images/magic-st-bg.png';
-import magicImg from '@/assets/images/magic-st-img1.png';
+import topImg from '@/assets/images/early-warning-bg.png';
+import magicImg from '@/assets/images/early-warning-img1.png';
 
 class EarlyWarning extends Component {
   render() {
@@ -19,31 +19,37 @@ class EarlyWarning extends Component {
           <Nav selected="contact" />
         </div>
         <div className="JoinUs-body">
-          <TopImgForMagic topImg={topImg} title="MAXSim仿真平台" subTitle="MAXSIM SIMULATION PLATFORM" />
+          <TopImgForMagic topImg={topImg} title="预警指挥平台模拟训练系统" subTitle="EARLY WARNING AND COMMAND SIMULATION TRAINING SYSTEM" />
           <ProductIntroduction 
             title="产品简介" 
             content={
-              ['MAXSim是我公司基于先进的GBB技术和DMAS技术的系统架构研发完成的自主可控分布式仿真平台，实现了巨大实体数量（100万个）的实时仿真，它具有精细全面的装备建模能力、可视化行为建模能力和强大的运行管理能力。MAXSim仿真平台提供了装备建模、行为建模、想定制作、运行监控、过程回放等一系列工具，支持模型建立、想定制作、仿真运行、数据分析等重要过程。 ']}
+              [' 预警指挥系统主要是为建立综合导控系统，实现改进后的X型任务系统训练模拟器和Y型警戒机任务系统训练模拟器与虚拟兵力推演系统互联，并在综合导控系统的组织与控制下实现海军预警战术联网对抗训练功能。']}
           />
-          <div className="magic-st-system-composition-img">
-              <img src={magicImg} alt="" />
-          </div>
+         
 
           <div className="magic-st-system-composition">
             <ProductIntroduction 
-              title="系统功能" 
+              title="系统组成" 
               content={
-                ['MAXSim平台覆盖了实况仿真、虚拟仿真和构造仿真领域，可广泛的应用于各军兵种战役战术仿真和武器装备论证。MAXSim所提供的开发接口（SDK），具有良好的开放性和扩展性，能很好地支持各种定制开发。']}
+                ['本系统包括综合导演台、系统监控台、数据管理台、环境仿真台/二维态势显示台、红方导演台、蓝方导演台、三维态势显示台，可实现不同的战术对抗训练模式。']}
             />
+             <div className="magic-st-system-composition-img">
+              <img src={magicImg} alt="" />
+             </div>
           </div>
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
-            {/* <Carousel data={projectData} /> */}
+            <Carousel data={projectData} />
           </div>
 
-          <div className="magic-st-technical">
-            <CommonTitle title="典型案例" />
+           <div className="magic-wg-technical">
+            <CommonTitle title="技术特点" />
+            <div className="helicopter-system-technical-content">
+              <div><Characteristics num="01" content="基于MAXSim的模拟器接入仿真推演，实现了多台任务系统训练模拟器接入仿真推演，采用虚实结合的推演方法，使得推演真实性更强。"/></div>
+              <div><Characteristics num="02" content="采用软件产品系列化设计开发，最大限度的实现了软件模块的重用。"/></div>
+              <div><Characteristics num="03" content="应用软件实现源代码级的兼容和互操作性，并可根据硬件系统的配置调整系统参数和功能，易于系统升级。"/></div>
+            </div>
           </div>
           
           <Footer name="contact" />
