@@ -77,14 +77,17 @@ class App extends Component {
           <Route path="/magic-IETM" component={MagicIETM} />
           {/* MagicBook虚拟仿真平台     */}
           <Route path="/magic-book" component={MagicBook} />
+
           {/* 陆军兵种战术对抗训练模拟系统    */}
           <Route path="/army-system" component={ArmySystem} />
           {/* 预警指挥平台模拟训练系统 */}
           <Route path="/early-warning" component={EarlyWarning} />
+
           {/* 新型作战平台战法研究系统  */}
           <Route path="/combat-platform" component={CombatPlatform} />
           {/* 空军作战指挥训练仿真系统  */}
           <Route path="/air-force" component={AirForce} />
+          
            {/* 空间态势感知信息保障仿真系统  */}
            <Route path="/space-situation" component={SpaceSituation} />
            {/* 军工企业案例  */}

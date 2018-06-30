@@ -50,7 +50,6 @@ class CombatPlatform extends Component {
               <img src={magicImg1} alt="" />
               <div>系统总体框架</div>
             </div>
-            
           </div>
 
           <div className="magic-wg-product-img">
