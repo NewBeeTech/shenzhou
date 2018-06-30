@@ -6,10 +6,10 @@ import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import CharacteristicsRow from '@/components/CharacteristicsRow'
 import Carousel from '@/components/Carousel'
-import { projectData } from './MAXSimData';
+import { projectData, anliData, data } from './MAXSimData';
 
-import topImg from '@/assets/images/magic-st-bg.png';
-import magicImg from '@/assets/images/magic-st-img1.png';
+import topImg from '@/assets/images/max-sim-bg.png';
+import magicImg from '@/assets/images/max-sim-img1.png';
 
 class MAXSim extends Component {
   render() {
@@ -39,7 +39,7 @@ class MAXSim extends Component {
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
-            {/* <Carousel data={projectData} /> */}
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-st-technical">

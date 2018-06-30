@@ -85,7 +85,6 @@ class App extends Component {
           <Route path="/combat-platform" component={CombatPlatform} />
           {/* 空军作战指挥训练仿真系统  */}
           <Route path="/air-force" component={AirForce} />
-
            {/* 空间态势感知信息保障仿真系统  */}
            <Route path="/space-situation" component={SpaceSituation} />
            {/* 军工企业案例  */}
