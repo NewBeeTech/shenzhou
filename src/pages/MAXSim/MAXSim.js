@@ -35,8 +35,8 @@ class MAXSim extends Component {
     if(data) {
       data.map((item, key) => {
         views.push(
-          <div key={key}>
-            <div><img src={item.img} alt="" /></div>
+          <div key={key} className="max-sim-anli-item">
+            <div className="max-sim-anli-img"><img src={item.img} alt="" /></div>
             <div>{item.title}</div>
           </div>
         )
@@ -79,7 +79,7 @@ class MAXSim extends Component {
 
           <div className="magic-st-technical">
             <CommonTitle title="典型案例" />
-            <div>
+            <div className="max-sim-anli-body">
               {this.showAnliDataList(anliData)}
             </div>
           </div>
