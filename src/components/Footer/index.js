@@ -23,9 +23,9 @@ const rightList1 = [
   { content: '加入我们', url: '/join-us' }
 ]
 const rightList2 = [
-  { content: 'MAXSim', url: '' },
-  { content: 'MagicBook', url: '' },
-  { content: 'MagicIETM', url: '' }
+  { content: 'MAXSim', url: '/max-sim' },
+  { content: 'MagicBook', url: '/magic-book' },
+  { content: 'MagicIETM', url: '/magic-IETM' }
 ]
 const rightList3 = [
   { content: 'MagicST', url: '/magic-st' },
