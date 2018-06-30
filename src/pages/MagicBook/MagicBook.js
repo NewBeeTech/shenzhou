@@ -4,14 +4,39 @@ import TopImgForMagic from '@/components/TopImgForMagic';
 import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
-import CharacteristicsRow from '@/components/CharacteristicsRow'
+import CompositionBody from '@/components/CompositionBody'
 import Carousel from '@/components/Carousel'
-import { projectData } from './MagicBookData';
+import { projectData, compositionData, anliData } from './MagicBookData';
 
-import topImg from '@/assets/images/magic-st-bg.png';
-import magicImg from '@/assets/images/magic-st-img1.png';
+import topImg from '@/assets/images/magic-book-bg.png';
+import magicImg from '@/assets/images/magic-book-img1.png';
 
 class MagicBook extends Component {
+  showCompositionData(data) {
+    const views = [];
+    if(data) {
+      const lengthNum = data.length;
+      data.map((item, key) => {
+        views.push(<CompositionBody leftImg={item.img} title={item.title} content={item.content} key={key} islast={true} />);
+      })
+    }
+    return views;
+  }
+
+  showAnliDataList (data) {
+    const views = [];
+    if(data) {
+      data.map((item, key) => {
+        views.push(
+          <div key={key} className="max-sim-anli-item">
+            <div className="max-sim-anli-img"><img src={item.img} alt="" /></div>
+            <div>{item.title}</div>
+          </div>
+        )
+      })
+    }
+    return views;
+  }
   render() {
     return (
       <div className="JoinUs">
@@ -19,31 +44,39 @@ class MagicBook extends Component {
           <Nav selected="contact" />
         </div>
         <div className="JoinUs-body">
-          <TopImgForMagic topImg={topImg} title="MAXSim仿真平台" subTitle="MAXSIM SIMULATION PLATFORM" />
+          <TopImgForMagic topImg={topImg} title="MagicBook虚拟仿真平台" subTitle="MAGICBOOK VIRTUAL SIMULATION PLATFORM" />
           <ProductIntroduction 
             title="产品简介" 
             content={
-              ['MAXSim是我公司基于先进的GBB技术和DMAS技术的系统架构研发完成的自主可控分布式仿真平台，实现了巨大实体数量（100万个）的实时仿真，它具有精细全面的装备建模能力、可视化行为建模能力和强大的运行管理能力。MAXSim仿真平台提供了装备建模、行为建模、想定制作、运行监控、过程回放等一系列工具，支持模型建立、想定制作、仿真运行、数据分析等重要过程。 ']}
+              ['MagicBook虚拟仿真平台是一套具备高分辨率三维仿真功能的虚拟仿真制作开发、教学与管理平台。它采用开放式结构和模块化技术，提供从内容创建管理、目标规划、知识传递、实时演练到汇报总结的全生命周期训练模式和一站式虚拟实验解决方案。尤其是能为操作流程复杂的训练和意外情况处置的训练提供性价比极高的选择，它将在军事训练领域和民用领域发挥更大的作用。']}
           />
-          <div className="magic-st-system-composition-img">
-              <img src={magicImg} alt="" />
-          </div>
+         
+         <div className="magic-st-system-composition">
+           <CommonTitle title="系统组成" />
+           <div className="simulation-system-composition-title">MagicBook由开发制作环境、管理环境、运行环境三大部分组成。</div>
+           <div>
+             <div><img src={magicImg} alt="" /></div>
+             <div></div>
+             
+             
+           </div>
+        </div>
 
-          <div className="magic-st-system-composition">
-            <ProductIntroduction 
-              title="系统功能" 
-              content={
-                ['MAXSim平台覆盖了实况仿真、虚拟仿真和构造仿真领域，可广泛的应用于各军兵种战役战术仿真和武器装备论证。MAXSim所提供的开发接口（SDK），具有良好的开放性和扩展性，能很好地支持各种定制开发。']}
-            />
+          <div className="magic-book-system-composition">
+            <CommonTitle title="系统功能" />
+            {this.showCompositionData(compositionData)}
           </div>
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
-            {/* <Carousel data={projectData} /> */}
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-st-technical">
             <CommonTitle title="典型案例" />
+            <div className="max-sim-anli-body">
+              {this.showAnliDataList(anliData)}
+            </div>
           </div>
           
           <Footer name="contact" />
