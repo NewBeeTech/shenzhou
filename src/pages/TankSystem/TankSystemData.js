@@ -4,6 +4,13 @@ import img3 from '@/assets/images/magic-wg-img2.png';
 import img4 from '@/assets/images/tank-system-img1.png';
 
 
+import projectImg1 from '@/assets/images/tank-system-project-img1.png';
+import projectImg2 from '@/assets/images/tank-system-project-img2.png';
+import projectImg3 from '@/assets/images/tank-system-project-img3.png';
+import projectImg4 from '@/assets/images/tank-system-project-img4.png';
+
+
+
 export const compositionData = [{
     title: '兵棋编辑软件',
     content: '兵棋编辑软件将支持手工兵棋和计算机兵棋设计时必要的编辑工作，包括算子编辑器、作战编成编辑器、地图编辑器、裁决表编辑器、裁决流程编辑器、想定编辑器及推演编辑器。',
@@ -21,4 +28,6 @@ export const compositionData = [{
     content: '',
     img: img4
   }]
+
+  export const projectData = [projectImg1, projectImg2, projectImg3, projectImg4]
   

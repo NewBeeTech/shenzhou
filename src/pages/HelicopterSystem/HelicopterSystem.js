@@ -5,7 +5,8 @@ import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import Characteristics from '@/components/Characteristics'
-import { compositionData } from './HelicopterSystemData';
+import Carousel from '@/components/Carousel'
+import { compositionData, projectData } from './HelicopterSystemData';
 
 import topImg from '@/assets/images/helicopter-system-bg.png';
 
@@ -46,6 +47,7 @@ class HelicopterSystem extends Component {
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-wg-technical">
