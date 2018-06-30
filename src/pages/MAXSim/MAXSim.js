@@ -12,6 +12,38 @@ import topImg from '@/assets/images/max-sim-bg.png';
 import magicImg from '@/assets/images/max-sim-img1.png';
 
 class MAXSim extends Component {
+  showDataList (data) {
+    const views = [];
+    if(data) {
+      data.map((item, key) => {
+        views.push(
+          <div key={key} className="max-sim-system-item">
+            <div className="max-sim-system-title">
+              <div className="max-sim-system-img"><img src={item.img} alt="" /></div>
+              <div>{item.title}</div>
+            </div>
+            <div className="max-sim-system-content">{item.content}</div>
+          </div>
+        )
+      })
+    }
+    return views;
+  }
+
+  showAnliDataList (data) {
+    const views = [];
+    if(data) {
+      data.map((item, key) => {
+        views.push(
+          <div key={key}>
+            <div><img src={item.img} alt="" /></div>
+            <div>{item.title}</div>
+          </div>
+        )
+      })
+    }
+    return views;
+  }
   render() {
     return (
       <div className="JoinUs">
@@ -35,6 +67,9 @@ class MAXSim extends Component {
               content={
                 ['MAXSim平台覆盖了实况仿真、虚拟仿真和构造仿真领域，可广泛的应用于各军兵种战役战术仿真和武器装备论证。MAXSim所提供的开发接口（SDK），具有良好的开放性和扩展性，能很好地支持各种定制开发。']}
             />
+            <div className="max-sim-system-body">
+              {this.showDataList(data)}
+            </div>
           </div>
 
           <div className="magic-wg-product-img">
@@ -44,6 +79,9 @@ class MAXSim extends Component {
 
           <div className="magic-st-technical">
             <CommonTitle title="典型案例" />
+            <div>
+              {this.showAnliDataList(anliData)}
+            </div>
           </div>
           
           <Footer name="contact" />
