@@ -4,8 +4,9 @@ import TopImgForMagic from '@/components/TopImgForMagic';
 import Footer from '@/components/Footer';
 import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
-import CompositionBody from '@/components/CompositionBody';
 import Characteristics from '@/components/Characteristics'
+import Carousel from '@/components/Carousel'
+import { projectData } from './RocketSystemData';
 
 import topImg from '@/assets/images/rocket-system-bg.png';
 import magicImg from '@/assets/images/rocket-system-img1.png';
@@ -34,6 +35,7 @@ class RocketSystem extends Component {
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-wg-technical">

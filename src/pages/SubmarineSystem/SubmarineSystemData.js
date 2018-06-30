@@ -3,6 +3,9 @@ import img2 from '@/assets/images/magic-wg-img3.png';
 import img3 from '@/assets/images/magic-wg-img2.png';
 import img4 from '@/assets/images/tank-system-img1.png';
 
+import projectImg1 from '@/assets/images/submarine-system-project-img1.png';
+import projectImg2 from '@/assets/images/submarine-system-project-img2.png';
+import projectImg3 from '@/assets/images/submarine-system-project-img3.png';
 
 
 export const compositionData = [{
@@ -22,4 +25,6 @@ export const compositionData = [{
     content: '用于实际行动记录数据的录入和复演分析。其中数据记录实现仿真实体数据管理，对数据进行统一的管理与维护，包括数据的增加、删除、修改、查询、备份、还原、浏览和维护等。复演分析又分为数据管理和复演推进两个部分',
     img: img4
   }]
+
+  export const projectData = [projectImg1, projectImg2, projectImg3]
   

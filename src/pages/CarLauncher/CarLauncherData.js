@@ -3,6 +3,10 @@ import img2 from '@/assets/images/magic-wg-img3.png';
 import img3 from '@/assets/images/magic-wg-img2.png';
 
 
+import projectImg1 from '@/assets/images/car-launcher-project-img1.png';
+import projectImg2 from '@/assets/images/car-launcher-project-img2.png';
+import projectImg3 from '@/assets/images/car-launcher-project-img3.png';
+
 export const compositionData = [{
     title: '训练想定编辑',
     content: '教官或管理者可以编辑包含发射车的想定，在想定中指定发射车的初始位置和初始状态，也可以设定发射车故障出现的概率和时段，及指定进行训练指导的虚拟教官。虚拟教官通过专用编辑器事先完成编辑。',
@@ -16,4 +20,6 @@ export const compositionData = [{
     content: '受训者在进行虚拟操作过程中，虚拟教官进行过程正确性评估并记录。',
     img: img3
   }]
+
+  export const projectData = [projectImg1, projectImg2, projectImg3]
   

@@ -4,6 +4,13 @@ import img3 from '@/assets/images/magic-wg-img2.png';
 import img4 from '@/assets/images/tank-system-img1.png';
 
 
+import projectImg1 from '@/assets/images/coach-monitoring-project-img1.png';
+import projectImg2 from '@/assets/images/coach-monitoring-project-img2.png';
+import projectImg3 from '@/assets/images/coach-monitoring-project-img3.png';
+import projectImg4 from '@/assets/images/coach-monitoring-project-img4.png';
+import projectImg5 from '@/assets/images/coach-monitoring-project-img5.png';
+
+
 export const compositionData = [{
     title: '仿真驱动功能',
     content: '仿真引擎即MAXSim平台，提供装备模型和行为模型的解算功能。',
@@ -21,4 +28,6 @@ export const compositionData = [{
     content: '该模块提供应用层与仿真引擎的通信以及监控系统与模拟分系统、实装分系统的通信。',
     img: img4
   }]
+
+  export const projectData = [projectImg1, projectImg2, projectImg3, projectImg4, projectImg5]
   

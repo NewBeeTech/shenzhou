@@ -6,7 +6,8 @@ import ProductIntroduction from '@/components/ProductIntroduction';
 import CommonTitle from '@/components/CommonTitle';
 import CompositionBody from '@/components/CompositionBody';
 import Characteristics from '@/components/Characteristics'
-import { compositionData } from './NavalVesselsData';
+import Carousel from '@/components/Carousel'
+import { compositionData, projectData } from './NavalVesselsData';
 
 import topImg from '@/assets/images/naval-vessels-bg.png';
 
@@ -42,6 +43,7 @@ class NavalVessels extends Component {
 
           <div className="magic-wg-product-img">
             <CommonTitle title="产品图片" color="#fff"/>
+            <Carousel data={projectData} />
           </div>
 
           <div className="magic-wg-technical">
