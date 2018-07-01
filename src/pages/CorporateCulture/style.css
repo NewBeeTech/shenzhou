@@ -1,5 +1,5 @@
 .core-idea {
-  width: 80vw;
+  /* width: 80vw; */
   padding: 3vw 10vw;
   background-color: #F5F5F5;
 }
@@ -71,7 +71,8 @@
 }
 
 .staff-presence1-text {
-  width: calc(80vw - 2rem);
+  /* width: calc(80vw - 2rem); */
+  width: 80vw;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -160,7 +161,8 @@
   }
   
   .staff-presence2-text {
-    width: calc(80vw - 2rem);
+    /* width: calc(80vw - 2rem); */
+    width: 80vw;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -249,7 +251,8 @@
     }
     
     .staff-presence2-text {
-      width: calc(39vw - 2rem);
+      /* width: calc(39vw - 2rem); */
+      width: 39vw;
       position: absolute;
       bottom: 0;
       left: 0;
