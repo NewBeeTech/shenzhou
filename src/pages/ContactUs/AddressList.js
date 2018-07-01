@@ -19,10 +19,14 @@ class AddressList extends Component {
   }
   render() {
     return (
-      <table className="address-list-table" cellspacing="0" cellpadding="0">
-        <caption className="address-list-table-title">分公司地址及联系方式</caption>
-        {this.showTableData(data)}
+      <div>
+        <div className="address-list-table-title">分公司地址及联系方式</div>
+        <table className="address-list-table" cellspacing="0" cellpadding="0">
+        <tbody>
+          {this.showTableData(data)}
+        </tbody>
        </table>
+      </div>
     );
   }
 }
