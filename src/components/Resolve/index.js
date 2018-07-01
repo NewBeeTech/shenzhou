@@ -27,7 +27,7 @@ const list = [{
   icon: ResolveImg4,
   hoverIcon: bgImg,
 }, {
-  content: '海军某狱警指挥平台模拟训练系统',
+  content: '海军预警指挥平台模拟训练系统',
   icon: ResolveImg5,
   hoverIcon: bgImg,
 }, {
@@ -35,7 +35,7 @@ const list = [{
   icon: ResolveImg6,
   hoverIcon: bgImg,
 }, {
-  content: '海军某训练信息系统仿真平台',
+  content: '海军训练信息系统仿真平台',
   icon: ResolveImg7,
   hoverIcon: bgImg,
 }, {

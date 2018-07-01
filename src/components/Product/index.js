@@ -43,7 +43,7 @@ const list = [{
   content: '模拟训练装备',
   link: 'http://www.baidu.com',
 }, {
-  title: '炮兵模拟器',
+  title: '迫击炮模拟器',
   img: ProductImg6,
   bgImg: bgImg3,
   content: '模拟训练装备',

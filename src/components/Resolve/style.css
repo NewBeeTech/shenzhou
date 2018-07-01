@@ -13,14 +13,14 @@
   }
   .Resolve-item {
     border: 1px solid #d7dade;
-    width: 20%;
+    width: 23%;
     height: 10vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: #4e5c6c;
     background: #eee;
-    margin: 1em 0;
+    margin: 1rem 0;
     cursor: pointer;
   }
 }
