@@ -10,15 +10,15 @@ class Header extends Component {
         <a name={this.props.name} id={this.props.name}> </a>
         <div className="Header-img-bottom">
           <div className="Header-img-item animated bounceIn">
+            <div>MAXSim仿真平台</div>
             <div>MAXSim</div>
-            <div>多用途仿真平台</div>
           </div>
           <div className="Header-img-item animated bounceIn">
-            <div>MagicBook</div>
+            <div>MagicBook虚拟仿真平台</div>
             <div>综合模拟训练系统</div>
           </div>
           <div className="Header-img-item animated bounceIn">
-            <div>MagiclETM</div>
+            <div>MagiclETM交互式电子手册平台</div>
             <div>交互式技术手册开发平台</div>
           </div>
         </div>

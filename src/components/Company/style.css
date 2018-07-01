@@ -32,9 +32,10 @@
   .Company-bottom {
     padding: 5vw;
     flex-grow: 2;
-    font-size: 1.1rem;
-    line-height: 1.9;
+    font-size: 1rem;
+    line-height: 1.9rem;
     text-align: justify;
+    text-indent:2em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -83,13 +84,13 @@
   border-radius: 4px;
 }
 .Company-show-more {
-  color: #fff;
+  color: #B1CAEB;
   margin-left: 10px;
   text-decoration: none;
   display: inline-flex;
   justify-content: center;
 }
-.Company-show-more img {
+.Company-show-more > img {
   margin-left: 5px;
 }
 .Company-item-content {

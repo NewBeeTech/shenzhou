@@ -64,7 +64,7 @@
   line-height: 2;
 }
 .Basics-right-more {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 1.1rem;
   color: #233141;
   display: inline-flex;
@@ -76,4 +76,38 @@
   width: 1.1rem;
   height: 1.1rem;
   margin-left: 10px;
+}
+
+.Basics-right-more-div {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.asics-right-more-button {
+  display: flex;
+}
+.asics-right-more-button1 {
+  font-size: 1rem;
+  color: #AE0000;
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius:4px;
+  border:1px solid rgba(174,0,0,1);
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.asics-right-more-button2 {
+  font-size: 1rem;
+  color: #606F80;
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius:4px;
+  border:1px solid #606F80;
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
 }

@@ -29,6 +29,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .Header-img-bottom .Header-img-item div:last-child {
   font-size: 1rem;
   font-family: ArialUnicodeMS;
@@ -40,6 +41,14 @@
     font-size: 1rem;
     line-height: 2em;
     font-family: AbadiMT-CondensedExtraBold;
+  }
+
+  .Header-img-item > div{
+    width: 30vw;
+    overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 
