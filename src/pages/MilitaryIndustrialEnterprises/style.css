@@ -19,12 +19,13 @@
 }
 
 @media screen and (min-width: 500px) {
-    .army-system-gongneng-right-item {
+    .military-industrial-enterprises-right-item {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         padding: 4rem 0;
         border-bottom: 1px dashed #606F80;
+
     }
     
     .military-industrial-enterprises-img {
@@ -42,7 +43,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .army-system-gongneng-right-item {
+    .military-industrial-enterprises-right-item {
         display: flex;
         flex-direction: column;
         align-items: center;

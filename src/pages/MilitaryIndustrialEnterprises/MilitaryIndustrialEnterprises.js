@@ -15,7 +15,7 @@ class MilitaryIndustrialEnterprises extends Component {
     if(data) {
       data.map((item, key) => {
         views.push(
-          <div className="army-system-gongneng-right-item">
+          <div className="military-industrial-enterprises-right-item">
               <div className="military-industrial-enterprises-img"><img src={item.img} alt=""/></div>
               <div className="military-industrial-enterprises-right">
                 <div className="military-industrial-enterprises-right-title">{item.title}</div>

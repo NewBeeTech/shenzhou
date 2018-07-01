@@ -47,6 +47,7 @@ class App extends Component {
           <Route path="/about-us" component={AboutUs} />
           {/* 企业文化 */}
           <Route path="/corporate-culture" component={CorporateCulture} />
+          
           {/* 兵棋推演系统 */}
           <Route path="/magic-wg" component={MagicWG} />
           {/* MagicST电子沙盘推演系统  */}
